@@ -350,7 +350,9 @@
         </copy>
 
         <chmod file="${opensim.dist.dir}/bin/**" perm="755" />
-        <chmod file="${opensim.dist.dir}/sdk/Simbody/libexec/simbody/simbody-visualizer"
+        <!-- <chmod file="${opensim.dist.dir}/sdk/Simbody/libexec/simbody/simbody-visualizer"
+            perm="755" /> -->
+        <chmod file="${opensim.dist.dir}/libexec/simbody/simbody-visualizer"
             perm="755" />
 
         <!-- Zip up Resources and delete the original Resources folder. -->
